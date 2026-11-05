@@ -19,10 +19,10 @@ Workflow navnet er `ig-gh-pages` og er satt opp til å trigges manuelt via GitHu
 
 ```yaml
 env:
-  IG: mal
+  IG: lab-ig
 ```
 
-Setter miljøvariabelen `IG` til `mal`, som representerer navnet på implementasjonsguiden.
+Setter miljøvariabelen `IG` til `lab-ig`, som representerer navnet på implementasjonsguiden.
 
 ### Jobb: Publish
 

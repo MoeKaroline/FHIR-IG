@@ -14,7 +14,7 @@ Workflowen kan utløses på flere måter:
 
 ## Miljøvariabler
 
-- `IG_SHORTNAME`: mal
+- `IG_SHORTNAME`: lab-ig
 
 **Viktig:** Husk å endre denne til ditt navn på katalogen som IG'en ligger i når du bruker malen.
 
@@ -146,7 +146,7 @@ Endre `IG_SHORTNAME` i `.github/workflows/validate-fsh.yml`:
 
 ```yaml
 env:
-  IG_SHORTNAME: ditt-ig-mappenavn  # Endre fra 'mal'
+  IG_SHORTNAME: lab-ig  # Endre fra 'mal'
 ```
 
 ### 2. Sikre mappestruktur

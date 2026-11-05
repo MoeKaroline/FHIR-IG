@@ -1,10 +1,17 @@
-### Tittel
+### Lab Implementation Guide
 
-Introduksjonstekst (husk at dette er en mal, og ALL tekst må endres - dette er kun et eksempel)
+Dette er en test-implementasjonsguide for å prøve utvikling og publisering av en FHIR Implementation Guide.
 
 ### Mål
 
-Målet med denne implementasjonsguiden er å gi en standardisert måte å representere og utveksle helsedata på ved hjelp av HL7 FHIR. Guiden beskriver hvordan ulike FHIR-profiler og ressurser kan brukes for å oppnå interoperabilitet mellom helsesystemer.
+Formålet med denne IG-en er å teste:
+- utviling av FHIR-profiler med FHIR Shorthand (FSH)
+- validering av profiler med SUSHI
+- bygging av Implementation Guide
+- automatisk publisering med GitHub Actions og GitHub Pages
+
+### Status
+Denne implementasjonsguiden er under utvikling og brukes kun til testing. 
 
 ### Omfang
 

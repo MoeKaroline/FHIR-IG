@@ -12,7 +12,7 @@ Denne guiden vil hjelpe deg med å bruke denne repoen som en mal for å lage din
 
 ## Trinn 2: Opprett et nytt repository
 
-1. Skriv inn et nytt repo-navn for din IG, for eksempel `min-ig`.
+1. Skriv inn et nytt repo-navn for din IG, for eksempel `lab-ig`.
 2. Legg til en beskrivelse hvis ønskelig.
 3. Velg om repoen skal være offentlig eller privat.
 4. Klikk på den grønne "Create repository from template"-knappen.
@@ -23,7 +23,7 @@ Denne guiden vil hjelpe deg med å bruke denne repoen som en mal for å lage din
 
 ### 3.1 Oppdater `sushi-config.yaml`
 
-Åpne `mal/sushi-config.yaml` og endre følgende felter:
+Åpne `lab-ig/sushi-config.yaml` og endre følgende felter:
 
 ```yaml
 id: ditt.fhir.ig.navn           # Endre fra hl7.fhir.no.mal
@@ -125,16 +125,16 @@ Kontonavn er navnet på kontoen som repo'et er på, f.eks. "HL7Norway" eller din
 
 For å sikre at du har fulgt alle trinn:
 
-- [ ] Opprettet repo fra template
-- [ ] Oppdatert `sushi-config.yaml` med dine verdier
-- [ ] Oppdatert `ig.ini` med samme IG-ID som i `sushi-config.yaml`
-- [ ] Endret `IG_SHORTNAME` i `.github/workflows/`-filene
-- [ ] Oppdatert path-filtrene i `validate-fsh.yml`
-- [ ] Oppdatert PlantUML-stien i `plant-uml.yml` hvis `mal/` er omdøpt
-- [ ] Gitt nytt navn til `mal/`-mappen (valgfritt, men anbefalt)
-- [ ] Tilpasset FSH-profiler og eksempler
-- [ ] Oppdatert `index.md` med din dokumentasjon
-- [ ] Testet FSH-validering i GitHub Actions
+- [x] Opprettet repo fra template
+- [x] Oppdatert `sushi-config.yaml` med dine verdier
+- [x] Oppdatert `ig.ini` med samme IG-ID som i `sushi-config.yaml`
+- [x] Endret `IG_SHORTNAME` i `.github/workflows/`-filene
+- [x] Oppdatert path-filtrene i `validate-fsh.yml`
+- [x] Oppdatert PlantUML-stien i `plant-uml.yml` hvis `mal/` er omdøpt
+- [x] Gitt nytt navn til `mal/`-mappen (valgfritt, men anbefalt)
+- [x] Tilpasset FSH-profiler og eksempler
+- [x] Oppdatert `index.md` med din dokumentasjon
+- [x] Testet FSH-validering i GitHub Actions
 - [ ] Kjørt IG-generering og aktivert GitHub Pages
 
 ## Eksempel på komplett sushi-config.yaml
