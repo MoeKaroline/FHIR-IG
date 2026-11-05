@@ -1,5 +1,8 @@
 name: Gen IG and publish GH pages
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
 
