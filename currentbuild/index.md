@@ -1,4 +1,4 @@
-# Home - Mal v0.1.0
+# Home - Lab Implementation Guide v0.1.0
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,16 +7,25 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal | *Version*:0.1.0 |
-| Draft as of 2026-11-05 | *Computable Name*:Mal |
+| *Official URL*:https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig | *Version*:0.1.0 |
+| Draft as of 2026-11-05 | *Computable Name*:LabIG |
 
-### Tittel
+### Lab Implementation Guide
 
-Introduksjonstekst (husk at dette er en mal, og ALL tekst må endres - dette er kun et eksempel)
+Dette er en test-implementasjonsguide for å prøve utvikling og publisering av en FHIR Implementation Guide.
 
 ### Mål
 
-Målet med denne implementasjonsguiden er å gi en standardisert måte å representere og utveksle helsedata på ved hjelp av HL7 FHIR. Guiden beskriver hvordan ulike FHIR-profiler og ressurser kan brukes for å oppnå interoperabilitet mellom helsesystemer.
+Formålet med denne IG-en er å teste:
+
+* utviling av FHIR-profiler med FHIR Shorthand (FSH)
+* validering av profiler med SUSHI
+* bygging av Implementation Guide
+* automatisk publisering med GitHub Actions og GitHub Pages
+
+### Status
+
+Denne implementasjonsguiden er under utvikling og brukes kun til testing.
 
 ### Omfang
 
@@ -51,22 +60,22 @@ Eksempel på en figur laget med PlantUML.
 ```json
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "hl7.fhir.no.mal",
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
+  "id" : "lab-ig",
+  "url" : "https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig",
   "version" : "0.1.0",
-  "name" : "Mal",
-  "title" : "Mal",
+  "name" : "LabIG",
+  "title" : "Lab Implementation Guide",
   "status" : "draft",
-  "date" : "2026-11-05T13:32:19+00:00",
-  "publisher" : "HL7 Norge",
+  "date" : "2026-11-05T13:52:14+00:00",
+  "publisher" : "Karoline Moe",
   "contact" : [{
-    "name" : "HL7 Norge",
+    "name" : "Karoline Moe",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7.no"
+      "value" : "https://github.com/MoeKaroline"
     }]
   }],
-  "description" : "Implementasjonsguide for å TODO",
+  "description" : "Test Implementation Guide",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -74,7 +83,7 @@ Eksempel på en figur laget med PlantUML.
       "display" : "Norway"
     }]
   }],
-  "packageId" : "hl7.fhir.no.mal",
+  "packageId" : "lab-ig",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -214,7 +223,7 @@ Eksempel på en figur laget med PlantUML.
       },
       {
         "url" : "value",
-        "valueString" : "http://hl7.no/fhir/ig/mal/history.html"
+        "valueString" : "https://moekaroline.github.io/FHIR-IG/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -390,10 +399,10 @@ Eksempel på en figur laget med PlantUML.
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-mal-observation-blodprove.html"
+        "valueUri" : "StructureDefinition-lab-observation-blodprove.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mal-observation-blodprove"
+        "reference" : "StructureDefinition/lab-observation-blodprove"
       },
       "name" : "Blodprøve",
       "description" : "Profil for vanlige blodprøver",
@@ -406,10 +415,10 @@ Eksempel på en figur laget med PlantUML.
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-mal-patient.html"
+        "valueUri" : "StructureDefinition-lab-patient.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/mal-patient"
+        "reference" : "StructureDefinition/lab-patient"
       },
       "name" : "Pasient",
       "description" : "Informasjon om pasienten, basert på no-basis.",
@@ -429,7 +438,7 @@ Eksempel på en figur laget med PlantUML.
       },
       "name" : "Pasient-1",
       "description" : "Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon",
-      "exampleCanonical" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"
+      "exampleCanonical" : "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient"
     }],
     "page" : {
       "extension" : [{

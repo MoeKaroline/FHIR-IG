@@ -1,21 +1,21 @@
 [{
-  "id" : "hl7.fhir.no.mal",
+  "id" : "lab-ig",
   "type" : "ImplementationGuide",
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
+  "url" : "https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig",
   "version" : "0.1.0",
-  "name" : "Mal"
+  "name" : "LabIG"
 },
 {
-  "id" : "mal-observation-blodprove",
+  "id" : "lab-observation-blodprove",
   "type" : "StructureDefinition",
-  "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
+  "url" : "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-observation-blodprove",
   "version" : "0.1.0",
-  "name" : "MalObservationBlood"
+  "name" : "LabObservationBlood"
 },
 {
-  "id" : "mal-patient",
+  "id" : "lab-patient",
   "type" : "StructureDefinition",
-  "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
+  "url" : "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient",
   "version" : "0.1.0",
-  "name" : "MalPatient"
+  "name" : "LabPatient"
 }]

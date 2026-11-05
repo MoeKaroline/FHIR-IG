@@ -1,4 +1,4 @@
-# hl7.fhir.no.mal#0.1.0: Mal
+# lab-ig#0.1.0: Lab Implementation Guide
 
 ## Pages
 
@@ -9,12 +9,12 @@
 
 ### Resource Profiles
 
-* [Blodprøve](StructureDefinition-mal-observation-blodprove.md)
-* [Pasient](StructureDefinition-mal-patient.md)
+* [Blodprøve](StructureDefinition-lab-observation-blodprove.md)
+* [Pasient](StructureDefinition-lab-patient.md)
 
 ### ImplementationGuides
 
-* [Mal](index.md)
+* [Lab Implementation Guide](index.md)
 
 ### Examples
 

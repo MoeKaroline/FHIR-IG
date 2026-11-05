@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.no/fhir/ig/mal/Patient/Pasient-1> a fhir:Patient ;
+<https://moekaroline.github.io/FHIR-IG/Patient/Pasient-1> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "Pasient-1"] ;
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient" ;
+       fhir:value "https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient" ;
        fhir:index 0 ;
-       fhir:link <http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient>
+       fhir:link <https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient>
      ]
   ] ;
   fhir:DomainResource.text [
@@ -60,7 +60,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.no/fhir/ig/mal/Patient/Pasient-1.ttl> a owl:Ontology ;
+<https://moekaroline.github.io/FHIR-IG/Patient/Pasient-1.ttl> a owl:Ontology ;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

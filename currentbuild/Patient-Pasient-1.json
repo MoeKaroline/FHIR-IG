@@ -2,7 +2,7 @@
   "resourceType" : "Patient",
   "id" : "Pasient-1",
   "meta" : {
-    "profile" : ["http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"]
+    "profile" : ["https://moekaroline.github.io/FHIR-IG/StructureDefinition/lab-patient"]
   },
   "text" : {
     "status" : "generated",

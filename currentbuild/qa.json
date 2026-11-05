@@ -1,13 +1,13 @@
 {
-  "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
-  "name" : "Mal",
-  "title" : "Mal",
-  "description" : "Implementasjonsguide for å TODO",
+  "url" : "https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig",
+  "name" : "LabIG",
+  "title" : "Lab Implementation Guide",
+  "description" : "Test Implementation Guide",
   "status" : "draft",
-  "package-id" : "hl7.fhir.no.mal",
+  "package-id" : "lab-ig",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 05 Nov, 2026 13:32:19 +0000",
-  "dateISO8601" : "2026-11-05T13:32:19+00:00",
+  "date" : "Thu, 05 Nov, 2026 13:52:14 +0000",
+  "dateISO8601" : "2026-11-05T13:52:14+00:00",
   "errs" : 1,
   "warnings" : 17,
   "hints" : 7,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 605098368
+  "maxMemory" : 500695040
 }
