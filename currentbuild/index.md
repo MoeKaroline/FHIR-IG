@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://moekaroline.github.io/FHIR-IG/ImplementationGuide/lab-ig | *Version*:0.1.0 |
-| Draft as of 2026-11-05 | *Computable Name*:LabIG |
+| Draft as of 2026-11-06 | *Computable Name*:LabIG |
 
 ### Lab Implementation Guide
 
@@ -66,7 +66,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "LabIG",
   "title" : "Lab Implementation Guide",
   "status" : "draft",
-  "date" : "2026-11-05T13:52:14+00:00",
+  "date" : "2026-11-06T09:43:23+00:00",
   "publisher" : "Karoline Moe",
   "contact" : [{
     "name" : "Karoline Moe",

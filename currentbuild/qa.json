@@ -6,15 +6,15 @@
   "status" : "draft",
   "package-id" : "lab-ig",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 05 Nov, 2026 13:52:14 +0000",
-  "dateISO8601" : "2026-11-05T13:52:14+00:00",
-  "errs" : 1,
-  "warnings" : 17,
+  "date" : "Fri, 06 Nov, 2026 09:43:23 +0000",
+  "dateISO8601" : "2026-11-06T09:43:23+00:00",
+  "errs" : 0,
+  "warnings" : 15,
   "hints" : 7,
   "broken-links" : 0,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "6.0.0-snapshot1 (3)",
-  "maxMemory" : 500695040
+  "maxMemory" : 537424784
 }
